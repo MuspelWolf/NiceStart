@@ -15,6 +15,7 @@ import android.graphics.Shader;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -33,6 +34,7 @@ public
 class SplashScreen extends AppCompatActivity {
 
     ImageView logo;
+    View bgImg;
 
     @Override
     protected
@@ -42,6 +44,7 @@ class SplashScreen extends AppCompatActivity {
         getSupportActionBar().hide();
 
         logo = findViewById( R.id.logo );
+        bgImg = findViewById( R.id.bgImg );
 
         Glide.with(this)
                 .load(R.drawable.ic_medal_foreground)

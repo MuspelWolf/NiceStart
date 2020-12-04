@@ -7,6 +7,7 @@
     android:background="@drawable/gun_bg">
 
     <View
+        android:id="@+id/bgImg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/scrim"/>

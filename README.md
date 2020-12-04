@@ -18,6 +18,6 @@
     ------ | ------
     ![](img/register.png) | ![](img/main1.png)
     
-    * MainActivity2
-    ------
-    ![](img/main2.png)
+    * MainActivity2 |
+    ------ |
+    ![](img/main2.png) |
