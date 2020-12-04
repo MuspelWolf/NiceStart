@@ -19,5 +19,5 @@
     ![](img/register.png) | ![](img/main11.png)
     
     * MainActivity2 | WIP
-    ------ | ------
+    ------          | ------
     ![](img/main2.png) | WIP
