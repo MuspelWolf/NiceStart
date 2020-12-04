@@ -9,4 +9,4 @@
     
     Splash | Login
     ------ | ------
-    ![](img/spalsh.png) | ![](img/login.png)
+    ![](img/splash.png) | ![](img/login.png)
