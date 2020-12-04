@@ -18,6 +18,6 @@
     ------ | ------
     ![](img/register.png) | ![](img/main11.png)
     
-    * MainActivity2 | 
+    * MainActivity2 | WIP
     ------ | ------
-    ![](img/main2.png) |
+    ![](img/main2.png) | WIP
