@@ -15,7 +15,13 @@ import android.graphics.Shader;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+
 /**
  * Ventana de bienvenida a la app
  *
@@ -27,6 +33,7 @@ public
 class SplashScreen extends AppCompatActivity {
 
     ImageView logo;
+
     @Override
     protected
     void onCreate(Bundle savedInstanceState) {
@@ -36,7 +43,17 @@ class SplashScreen extends AppCompatActivity {
 
         logo = findViewById( R.id.logo );
 
+        Glide.with(this)
+                .load(R.drawable.ic_medal_foreground)
+                .centerCrop().into(logo);
+
+        TextView mySubtitle = findViewById(R.id.splash_txt);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        mySubtitle.startAnimation(myanim);
+
         openApp( true );
+
+
     }
 
     private void openApp(boolean locationPermission){

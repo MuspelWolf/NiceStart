@@ -1,5 +1,8 @@
 m/com/nicestart/BuildConfig.java
  m.com.nicestart.BuildConfig
+m/com/nicestart/SplashScreen.java
+ m.com.nicestart.SplashScreen
+ m.com.nicestart.SplashScreen$1
 m/com/nicestart/MainActivity.java
  m.com.nicestart.MainActivity
 m/com/nicestart/LoginActivity.java
@@ -11,6 +14,3 @@ m/com/nicestart/SignupActivity.java
  m.com.nicestart.SignupActivity
  m.com.nicestart.SignupActivity$1
  m.com.nicestart.SignupActivity$2
-m/com/nicestart/SplashScreen.java
- m.com.nicestart.SplashScreen
- m.com.nicestart.SplashScreen$1

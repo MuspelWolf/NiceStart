@@ -27,6 +27,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fadein
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -1762,6 +1763,7 @@ id floating
 id forever
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -1782,6 +1784,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -1860,6 +1863,7 @@ id percent
 id pin
 id position
 id postLayout
+id proBtn
 id progress_circular
 id progress_horizontal
 id radio
@@ -1908,6 +1912,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id splash_txt
 id spline
 id split_action_bar
 id spread
@@ -1959,6 +1964,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2045,7 +2051,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
-layout activity_main2
+layout activity_main
 layout activity_signup
 layout activity_splash_screen
 layout custom_dialog
