@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#805c10</color>
+    <color name="colorAccent">#669900</color>
+    <color name="primary_dark">#5D4037</color>
+    <color name="background_purple">#966c13</color>
+    <color name="apptheme_color">#966c13</color>
+    <color name="light_grey">#BBBBBB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_purple_button">#e7b242</color>
+    <color name="pressed_purple_button">#eabc59</color>
+    <color name="focused_purple_button">#f0ce86</color>
+    <color name="textColor">#446600</color>
+    <color name="contrastColor">#669900</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NiceStart</string>
+    <string name="backimage_description">a woman</string>
+    <string name="signup_text">have you got an account? Register</string>
+    <string name="slogan">for a better end</string>
+    <string name="username_hint"> username</string>
+    <string name="signup_button_label">Sign up</string>
+    <string name="cancel_button_label">cancel</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">password</string>
+</resources>
