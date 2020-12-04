@@ -11,7 +11,7 @@
 9-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:5:5-26:19
+11-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:5:5-31:19
 12        android:allowBackup="true"
 12-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,36 +29,43 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.NiceStart" >
 21-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:11:9-47
-22        <activity android:name="m.com.nicestart.MainActivity" />
-22-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:12:9-59
-22-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:12:19-47
-23        <activity android:name="m.com.nicestart.SplashScreen" >
-23-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:13:9-19:20
-23-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:13:19-47
-24            <intent-filter>
-24-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:14:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:15:17-69
-25-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:15:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:17:17-77
-27-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity android:name="m.com.nicestart.LoginActivity" />
-30-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:20:9-51
-30-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:20:19-48
-31        <activity android:name="m.com.nicestart.SignupActivity" />
-31-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:21:9-52
-31-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:21:19-49
-32
-33        <meta-data
-33-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:23:9-25:57
-34            android:name="preloaded_fonts"
-34-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:24:13-43
-35            android:resource="@array/preloaded_fonts" />
-35-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:25:13-54
-36    </application>
-37
-38</manifest>
+22        <activity
+22-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:12:9-16:20
+23            android:name="m.com.nicestart.MainActivity2"
+23-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:12:19-48
+24            android:parentActivityName="m.com.nicestart.MainActivity" >
+24-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:13:13-55
+25        </activity>
+26        <activity android:name="m.com.nicestart.MainActivity" />
+26-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:17:9-50
+26-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:17:19-47
+27        <activity android:name="m.com.nicestart.SplashScreen" >
+27-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:18:9-24:20
+27-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:18:19-47
+28            <intent-filter>
+28-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="m.com.nicestart.LoginActivity" />
+34-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:25:9-51
+34-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:25:19-48
+35        <activity android:name="m.com.nicestart.SignupActivity" />
+35-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:26:9-52
+35-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:26:19-49
+36
+37        <meta-data
+37-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:28:9-30:57
+38            android:name="preloaded_fonts"
+38-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:29:13-43
+39            android:resource="@array/preloaded_fonts" />
+39-->/Users/raulgarcia/Desktop/NiceStart/app/src/main/AndroidManifest.xml:30:13-54
+40    </application>
+41
+42</manifest>

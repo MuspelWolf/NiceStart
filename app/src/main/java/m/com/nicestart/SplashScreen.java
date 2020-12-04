@@ -47,9 +47,9 @@ class SplashScreen extends AppCompatActivity {
                 .load(R.drawable.ic_medal_foreground)
                 .centerCrop().into(logo);
 
-        TextView mySubtitle = findViewById(R.id.splash_txt);
+        TextView splashTxt = findViewById(R.id.splash_txt);
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
-        mySubtitle.startAnimation(myanim);
+        splashTxt.startAnimation(myanim);
 
         openApp( true );
 

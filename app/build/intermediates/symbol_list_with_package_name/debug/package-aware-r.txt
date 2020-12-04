@@ -1964,7 +1964,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2052,6 +2051,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_main2
 layout activity_signup
 layout activity_splash_screen
 layout custom_dialog
