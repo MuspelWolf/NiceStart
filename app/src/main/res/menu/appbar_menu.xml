@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rcl.appuem.MainActivity">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_menu"
+        android:title="Item"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:title="Heart"
+        android:id="@+id/heart"
+        android:icon="@drawable/ic_heart"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/txt_ajustes"
+        app:showAsAction="never" />
+</menu>

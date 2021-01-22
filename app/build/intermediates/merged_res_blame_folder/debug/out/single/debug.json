@@ -16,6 +16,14 @@
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/layout/activity_main2.xml"
     },
     {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/menu_appbar_menu.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/menu/appbar_menu.xml"
+    },
+    {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/drawable_ic_heart.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/drawable/ic_heart.xml"
+    },
+    {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -46,6 +54,10 @@
     {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_medal_round.png.flat",
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-hdpi/ic_medal_round.png"
+    },
+    {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/drawable_ic_search_menu.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/drawable/ic_search_menu.xml"
     },
     {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_medal_round.png.flat",
@@ -98,6 +110,10 @@
     {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_medal.png.flat",
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-xhdpi/ic_medal.png"
+    },
+    {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/menu_context_menu.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/menu/context_menu.xml"
     },
     {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",

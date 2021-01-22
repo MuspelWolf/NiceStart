@@ -3,16 +3,6 @@ package m.com.nicestart;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapShader;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.Rect;
-import android.graphics.RectF;
-import android.graphics.Shader;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -47,7 +37,7 @@ class SplashScreen extends AppCompatActivity {
         bgImg = findViewById( R.id.bgImg );
 
         Glide.with(this)
-                .load(R.drawable.ic_medal_foreground)
+                .load(R.drawable.ic_medal_foreground )
                 .centerCrop().into(logo);
 
         TextView splashTxt = findViewById(R.id.splash_txt);

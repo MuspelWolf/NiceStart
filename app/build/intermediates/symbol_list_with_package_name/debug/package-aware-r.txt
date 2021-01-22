@@ -746,6 +746,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -989,13 +990,13 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
-color focused_purple_button
+color focused_brown_button
 color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_brown_button
 color light_grey
-color light_purple_button
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1077,7 +1078,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
-color pressed_purple_button
+color pressed_brown_button
 color primary_dark
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -1554,6 +1555,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable gun_bg
+drawable ic_heart
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_medal_background
@@ -1562,6 +1564,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_search_menu
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1661,6 +1664,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1721,6 +1725,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -1744,6 +1749,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id edit
 id edit_query
 id emailfield
 id end
@@ -1774,6 +1780,7 @@ id groups
 id guestBtn
 id guideline1
 id guideline2
+id heart
 id hideable
 id home
 id homeAsUp
@@ -1804,6 +1811,7 @@ id listMode
 id list_item
 id logInBtn
 id logo
+id mainLo
 id masked
 id message
 id middle
@@ -1886,6 +1894,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -1933,6 +1942,7 @@ id stretch
 id submenuarrow
 id submit_area
 id subtitle
+id swipeLo
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1942,6 +1952,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id taporswipetext
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2123,6 +2134,8 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu appbar_menu
+menu context_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_medal
@@ -2221,6 +2234,7 @@ string signup_button_label
 string signup_text
 string slogan
 string status_bar_notification_info_overflow
+string txt_ajustes
 string username_hint
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -3021,6 +3035,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

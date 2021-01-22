@@ -2,5 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@android:color/holo_orange_dark"
         android:state_pressed="true" />
-    <item android:drawable="@color/light_purple_button" />
+    <item android:drawable="@color/light_brown_button" />
 </selector>
