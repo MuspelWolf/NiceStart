@@ -1,8 +1,7 @@
 # Nice Start
 
-[MuspelWolf en github] [https://github.com/MuspelWolf]
-
-**italic**
+Aplicacion desarrollada en la asignatura de Desarrollo de Interfaces, en las que se incluyen diversas
+cualidades y objetos de Material Design.
 
 * Activities
 
