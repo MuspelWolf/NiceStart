@@ -15,7 +15,7 @@
     * MainActivity
     
     MainActivity | MainActivityBusqueda | MainActivitySnackBar
-    ------ | ------
+    ------ | ------ | ------
      ![](img/mainac1.png) | ![](img/mainacsearch.png) | ![](img/mainacsnak.png)
     
     * MainActivity2
