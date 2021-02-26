@@ -44,6 +44,10 @@
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/drawable/ic_medal_background.xml"
     },
     {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/menu_navbar.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/menu/navbar.xml"
+    },
+    {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_medal.png.flat",
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-xxxhdpi/ic_medal.png"
     },
@@ -96,6 +100,10 @@
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-anydpi-v26/ic_medal.xml"
     },
     {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/layout_alert_dialog.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/layout/alert_dialog.xml"
+    },
+    {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
@@ -124,12 +132,12 @@
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/raulgarcia/Desktop/NiceStart/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",

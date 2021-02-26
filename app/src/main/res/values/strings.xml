@@ -9,4 +9,7 @@
     <string name="email_hint">email</string>
     <string name="password_hint">password</string>
     <string name="txt_ajustes">Ajustes</string>
+    <string name="toast_search">Busqueda desactivada</string>
+    <string name="toast_heartnav">Tu tambien me gustas</string>
+    <string name="tv_perfir_prot">Perfil Prototipo</string>
 </resources>

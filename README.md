@@ -6,18 +6,20 @@
 
 * Activities
 
-    * Splash y Login
+    * Splash, Login y Register
     
-    Splash | Login
+    Splash | Login | Register
+    ------ | ------ | ------
+    ![](img/splash.png) | ![](img/login.png) | ![](img/register.png)
+    
+    * MainActivity
+    
+    MainActivity | MainActivityBusqueda | MainActivitySnackBar
     ------ | ------
-    ![](img/splash.png) | ![](img/login.png)
+     ![](img/mainac1.png) | ![](img/mainacsearch.png) | ![](img/mainacsnak.png)
     
-    * Register y MainActivity1
+    * MainActivity2
     
-    Register | MainActivity1
+    MainActivity2 | MainActivity2Dial
     ------ | ------
-    ![](img/register.png) | ![](img/main11.png)
-    
-    * MainActivity2 
-    
-    ![](img/main2.png)
+    ![](img/mainac2.png) | ![](img/mainac2dial.png)

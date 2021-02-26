@@ -1,4 +1,4 @@
-#Fri Jan 22 10:52:41 CET 2021
+#Fri Feb 26 10:37:34 CET 2021
 base.0=/Users/raulgarcia/Desktop/NiceStart/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

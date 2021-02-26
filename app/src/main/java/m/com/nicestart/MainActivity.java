@@ -19,7 +19,6 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.google.android.material.snackbar.Snackbar;
 
-import java.lang.invoke.ConstantCallSite;
 
 /**
  * Ventana principal
@@ -74,24 +73,8 @@ class MainActivity extends AppCompatActivity {
 
         super.onCreateContextMenu(menu, v, menuInfo);
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.context_menu, menu);
+        inflater.inflate(R.menu.appbar_menu, menu);
 
-    }
-
-    @Override
-    public boolean onContextItemSelected(MenuItem item) {
-        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
-        switch (item.getItemId()) {
-            case R.id.edit:
-                Toast toast = Toast.makeText(this, "going CONTEXT CAMERA", Toast.LENGTH_LONG);
-                toast.show();
-                break;
-            case R.id.delete:
-                Toast toast2 = Toast.makeText(this, "going CONTEXT SETTINGS", Toast.LENGTH_LONG);
-                toast2.show();
-                break;
-        }
-        return super.onContextItemSelected(item);
     }
 
     @Override
@@ -102,12 +85,15 @@ class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {// Handle action bar item clicks here. The action bar will// automatically handle clicks on the Home/Up button, so long// as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) return true;
-        if (id == R.id.search){
-            Toast toast = Toast.makeText(this,"going APPBAR CAMERA",Toast.LENGTH_LONG );
-        toast.show();
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                Toast toast = Toast.makeText(this, "Opening Settings", Toast.LENGTH_LONG);
+                toast.show();
+                break;
+            case R.id.heart:
+                Toast toast2 = Toast.makeText(this, "I like u", Toast.LENGTH_LONG);
+                toast2.show();
+                break;
         }
 
         return super.onOptionsItemSelected(item);

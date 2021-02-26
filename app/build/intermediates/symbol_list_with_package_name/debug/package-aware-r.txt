@@ -1690,6 +1690,7 @@ id bgImg
 id blocking
 id bottom
 id bounce
+id btt_nav
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1780,7 +1781,9 @@ id groups
 id guestBtn
 id guideline1
 id guideline2
+id gun
 id heart
+id heartNav
 id hideable
 id home
 id homeAsUp
@@ -1895,6 +1898,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollable
 id search
+id searchNav
 id search_badge
 id search_bar
 id search_button
@@ -2066,6 +2070,7 @@ layout activity_main
 layout activity_main2
 layout activity_signup
 layout activity_splash_screen
+layout alert_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2136,6 +2141,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu appbar_menu
 menu context_menu
+menu navbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_medal
@@ -2234,6 +2240,9 @@ string signup_button_label
 string signup_text
 string slogan
 string status_bar_notification_info_overflow
+string toast_heartnav
+string toast_search
+string tv_perfir_prot
 string txt_ajustes
 string username_hint
 style AlertDialog_AppCompat

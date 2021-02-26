@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchNav"
+        android:icon="@drawable/ic_search_menu"
+        android:title="Item" />
+
+    <item
+        android:title="Heart"
+        android:id="@+id/heartNav"
+        android:icon="@drawable/ic_heart" />
+    <item
+        android:title="Heart"
+        android:id="@+id/gun"
+        android:icon="@drawable/ic_medal_foreground" />
+
+</menu>
